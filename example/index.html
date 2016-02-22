@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Packagist Feed Example | www.htmldriven.com</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Jiri Rebenda (c) 2016, HTMLDriven">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../src/packagist.feed.css">
+		<style>
+			#wrapper{margin:0 auto;width:800px;}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1>Packagist Feed Example</h1>
+			<p class="author">If you like this library, please visit <a href="http://www.htmldriven.com">HTMLDriven.com</a> or my <a href="https://www.github.com/rebendajirijr">GitHub profile</a>.</p>
+			
+			<div id="packagist-feed" class="pf pf-default"></div>
+		</div>
+		
+		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="../src/packagist.feed.js"></script>
+		<script type="text/javascript">
+			Packagist.feed({
+				vendor: 'jr',
+				selector: '#packagist-feed'
+			});
+		</script>
+	</body>
+</html>
