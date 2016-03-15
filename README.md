@@ -6,7 +6,8 @@ Simple JavaScript-driven HTML widget for displaying list of published packages a
 
 [![Packagist Feed Example](http://www.htmldriven.com/assets/images/projects/packagist-feed.png)](http://www.htmldriven.com/)
 
-Full demo is available at [www.htmldriven.com](http://www.htmldriven.com/).
+See [example](./example/index.html).
+Online working demo is also available at [www.htmldriven.com](http://www.htmldriven.com/).
 
 ## Installation
 
@@ -19,6 +20,8 @@ Installing the Packagist Feed is easy, simply download the source code and add l
 <!-- packagist-feed JS -->
 <script type="text/javascript" src="link/to/packagist.feed.js"></script>
 ```
+
+*Note the example above expects you already linked bootstrap CSS.*
 
 ## Usage
 
