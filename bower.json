@@ -1,0 +1,23 @@
+{
+  "name": "packagist-feed",
+  "homepage": "https://github.com/htmldriven/packagist-feed",
+  "authors": [
+    "RebendaJiri <jiri.rebenda@htmldriven.com>"
+  ],
+  "description": "Simple JavaScript-driven HTML widget for displaying list of published packages as defined in packagist.org.",
+  "main": "src/packagist.feed.js",
+  "moduleType": [],
+  "keywords": [
+    "Packagist",
+    "Feed",
+    "HTMLDriven"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
