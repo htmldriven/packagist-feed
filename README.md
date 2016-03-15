@@ -2,6 +2,12 @@
 
 Simple JavaScript-driven HTML widget for displaying list of published packages as defined in packagist.org.
 
+## Examples
+
+[![Packagist Feed Example](http://www.htmldriven.com/assets/images/projects/packagist-feed.png)](http://www.htmldriven.com/)
+
+Full demo is available at [www.htmldriven.com](http://www.htmldriven.com/).
+
 ## Installation
 
 Installing the Packagist Feed is easy, simply download the source code and add link to it in your HTML:
@@ -32,4 +38,4 @@ Example of multiple Packagist Feeds being used on the same page is available at 
 
 ## License
 
-Packagist Feed is licensed under the [MIT](./LICENSE).
+Packagist Feed is licensed under the [The MIT License](./LICENSE).
