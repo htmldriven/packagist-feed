@@ -30,8 +30,8 @@ Once you linked the required files, you simply call:
 ```html
 <script type="text/javascript">
 Packagist.feed({
-	vendor: 'htmldriven', // package vendor name
-	selector: '#packagist-feed' // element which serves as a container for Packagist Feed HTML
+    vendor: 'htmldriven', // package vendor name
+    selector: '#packagist-feed' // element which serves as a container for Packagist Feed HTML
 });
 </script>
 ```
