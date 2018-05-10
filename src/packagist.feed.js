@@ -39,7 +39,7 @@ var Packagist = (function (document, undefined) {
             return selector.charAt(0) === '#' ? document.getElementById(selector.substring(1)) : document.getElementsByClassName(selector.substring(1));
         },
         getAsyncPackageInfo: function (packageName, success) {
-            var packageUrl = 'http://cors-proxy.htmldriven.com/?url=https://packagist.org/packages/' + packageName + '.json';
+            var packageUrl = 'https://cors-proxy.htmldriven.com/?url=https://packagist.org/packages/' + packageName + '.json';
             this.sendRequest(
                 packageUrl,
                 function (data) {
@@ -201,7 +201,7 @@ var Packagist = (function (document, undefined) {
         var container = methods.getElement(selector);
 
         // due to cross-domain request restriction, mediator service is needed
-        var vendorPackagesUrl = 'http://cors-proxy.htmldriven.com/?url=https://packagist.org/packages/list.json?vendor=' + vendor;
+        var vendorPackagesUrl = 'https://cors-proxy.htmldriven.com/?url=https://packagist.org/packages/list.json?vendor=' + vendor;
 
         methods.sendRequest(
             vendorPackagesUrl,
